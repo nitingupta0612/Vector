@@ -50,7 +50,7 @@ class Vector
 		}
 		void display()
 		{
-			cout<<"\nEntered vector : ";
+			cout<<"\nEntered vector : "<<x<<"i+"<<y<<"j+"<<z<<"k";
 		}
 	};
 	int main()
