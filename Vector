@@ -58,6 +58,6 @@ class Vector
 		vt.set_vector();
 		vt.modify();
 		vt.multiply();
-		return 0;
+		getch() ;
 	}
 		
