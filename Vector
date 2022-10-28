@@ -6,7 +6,7 @@ class VECTOR
 		int x,y,z;
 		void set_vector()
 		{
-			cout<<"\nEnter the scalar values of vector quantity \nIn x direction : ";
+			cout<<"\n Enter the scalar values of vector quantity\n in x direction : ";
 			cin>>x;
 			cout<<"In y direction : ";
 			cin>>y;
@@ -18,7 +18,7 @@ class VECTOR
 		{
 			int i;
 			display();
-			cout<<"\nEntered the direction in which you want to modify vector \n1. x-dimension\n2.y-dimension\n3.z-dimension\n";
+			cout<<"\n Enter the direction in which you want to modify the vector \n1. x-dimension\n2.y-dimension\n3.z-dimension\n";
 			cin>>i;
 			if(i==1)
 			{
