@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class Vector
+class VECTOR
 {
 	public:
 		int x,y,z;
@@ -54,10 +54,10 @@ class Vector
 	};
 	int main()
 	{
-		Vector vt;
+		VECTOR vt;
 		vt.set_vector();
 		vt.modify();
 		vt.multiply();
-		getch() ;
+		return 0;
 	}
 		
