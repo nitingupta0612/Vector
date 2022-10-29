@@ -1,4 +1,6 @@
 #include<iostream>
+#include<math.h>
+#include<conio.h>
 using namespace std;
 class VECTOR
 {
@@ -54,10 +56,10 @@ class VECTOR
 	};
 	int main()
 	{
-		VECTOR vt;
-		vt.set_vector();
-		vt.modify();
-		vt.multiply();
+		VECTOR V1;
+		V1.set_vector();
+		V1.modify();
+		V1.multiply();
 		return 0;
 	}
 		
