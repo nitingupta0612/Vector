@@ -2,8 +2,7 @@
 #include<math.h>
 #include<conio.h>
 using namespace std;
-class VECTOR
-{
+class VECTOR {
 	public:
 		int x,y,z,t;
 		void set_vector()
@@ -18,50 +17,42 @@ class VECTOR
 			cin>>t;
 		}
 		
-		void modify()
-		{
+		void modify() {
 			int i;
 			display();
 			cout<<"\n Enter the direction in which you want to modify the vector \n1. x-dimension\n2.y-dimension\n3.z-dimension\n";
 			cin>>i;
-			if(i==1)
-			{
-				cout<<"\nEnter new x: \n";
+			if(i==1) {
+				cout<<"\nEnter new x: " << endl;
 				cin>>x;
 			}
-			else if(i==2)
-			{
-				cout<<"\nEnter new y: \n";
+			else if(i==2) {
+				cout<<"\nEnter new y: " << endl;
 				cin>>y;
 			}
-			else if(i==3)
-			{
-				cout<<"\nEnter new z : \n";
+			else if(i==3) {
+				cout<<"\nEnter new z: " << endl;
 				cin>>z;
 			}
 			display();
 		}
-		void multiply()
-		{
+		void multiply() {
 			int scalar;
 			cout<<"\nEnter scalar quantity to multiply by : ";
 			cin>>scalar;
-			x=x*scalar;
-			y=y*scalar;
-			z=z*scalar;
+			x = x*scalar;
+			y = y*scalar;
+			z = z*scalar;
 			display();
 		}
-		void display()
-		{
-			cout<<"\nEntered vector : "<<x<<"i+"<<y<<"j+"<<z<<"k";
+		void display() {
+			cout<<"\nEntered vector : "<< x << "i+" << y << "j+" << z << "k";
 		}
 	};
-	int main()
-	{
+	int main() {
 		VECTOR Vt1;
 		Vt1.set_vector();
 		Vt1.modify();
 		Vt1.multiply();
 		return 0;
 	}
-		
