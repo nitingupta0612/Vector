@@ -5,7 +5,7 @@ using namespace std;
 class VECTOR
 {
 	public:
-		int x,y,z;
+		int x,y,z,t;
 		void set_vector()
 		{
 			cout<<"\n Enter the scalar values of vector quantity\n in x direction : ";
@@ -14,6 +14,8 @@ class VECTOR
 			cin>>y;
 			cout<<"\nIn z direction :\n ";
 			cin>>z;
+			cout<<"\nIn t direction :\n ";
+			cin>>t;
 		}
 		
 		void modify()
