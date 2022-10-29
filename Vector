@@ -10,9 +10,9 @@ class VECTOR
 		{
 			cout<<"\n Enter the scalar values of vector quantity\n in x direction : ";
 			cin>>x;
-			cout<<"In y direction : ";
+			cout<<"In y direction :\n ";
 			cin>>y;
-			cout<<"\nIn z direction : ";
+			cout<<"\nIn z direction :\n ";
 			cin>>z;
 		}
 		
@@ -24,17 +24,17 @@ class VECTOR
 			cin>>i;
 			if(i==1)
 			{
-				cout<<"\nEnter new x: ";
+				cout<<"\nEnter new x: \n";
 				cin>>x;
 			}
 			else if(i==2)
 			{
-				cout<<"\nEnter new y: ";
+				cout<<"\nEnter new y: \n";
 				cin>>y;
 			}
 			else if(i==3)
 			{
-				cout<<"\nEnter new z : ";
+				cout<<"\nEnter new z : \n";
 				cin>>z;
 			}
 			display();
@@ -56,10 +56,10 @@ class VECTOR
 	};
 	int main()
 	{
-		VECTOR V1;
-		V1.set_vector();
-		V1.modify();
-		V1.multiply();
+		VECTOR Vt1;
+		Vt1.set_vector();
+		Vt1.modify();
+		Vt1.multiply();
 		return 0;
 	}
 		
